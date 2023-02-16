@@ -1,4 +1,7 @@
 import StyledHead from "../components/StyledHead.tsx";
+import AboutSection from "../components/home/sections/AboutSection.tsx";
+import ProjectsSection from "../components/home/sections/ProjectsSection.tsx";
+import ToolsSection from "../components/home/sections/ToolsSection.tsx";
 
 const sectionContentClass = "p-4 mx-auto max-w-screen-md";
 
@@ -28,13 +31,16 @@ export default function Home() {
               Culi<span class="text-red-500">!</span>
             </h1>
             <p class="text-2xl">
-            full-stack software engineer
-          </p>
+              full-stack software engineer
+            </p>
             <p class="my-10">
               email, linkedin, github
             </p>
           </div>
         </section>
+        <AboutSection contentClass={sectionContentClass} />
+        <ProjectsSection contentClass={sectionContentClass} />
+        <ToolsSection contentClass={sectionContentClass} />
       </main>
       <footer class="p-4 mx-auto max-w-screen-md flex-shrink flex gap-1 items-center">
         <span class="rotate-180 translate-y-[1.5px]">&copy;</span>

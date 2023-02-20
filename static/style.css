@@ -1,0 +1,20 @@
+
+:root {
+  font-family: "DenoWorkCuliPageIconFont";
+}
+
+@charset "UTF-8";
+@font-face {
+  font-family: "DenoWorkCuliPageIconFont";
+  src: url("./deno_work_culi_page_icon_font.woff2?43985526") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+  https://fontello.com/
+
+  U+1f419   github-squared (Font Awesome) 
+  U+1f4bb   linked-in-squared (Font Awesome)
+  U+1f4e7   mail-squared (Font Awesome)
+*/

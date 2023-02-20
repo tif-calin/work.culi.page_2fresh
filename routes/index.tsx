@@ -2,6 +2,7 @@ import StyledHead from "../components/StyledHead.tsx";
 import AboutSection from "../components/home/sections/AboutSection.tsx";
 import ProjectsSection from "../components/home/sections/ProjectsSection.tsx";
 import ToolsSection from "../components/home/sections/ToolsSection.tsx";
+import Socials from "../components/Socials.tsx";
 
 const sectionContentClass = "p-4 mx-auto max-w-screen-md";
 
@@ -10,6 +11,7 @@ export default function Home() {
     <>
       <StyledHead>
         <title>Culi Tif — portfolio</title>
+        <link rel="stylesheet" href="/style.css" />
       </StyledHead>
       <style>
         {`
@@ -34,7 +36,7 @@ export default function Home() {
               full-stack software engineer
             </p>
             <p class="my-10">
-              email, linkedin, github
+              <Socials />
             </p>
           </div>
         </section>

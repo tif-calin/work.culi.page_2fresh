@@ -4,7 +4,11 @@ import ProjectsSection from "../components/home/sections/ProjectsSection.tsx";
 import ToolsSection from "../components/home/sections/ToolsSection.tsx";
 import Socials from "../components/Socials.tsx";
 
-const sectionContentClass = "p-4 mx-auto max-w-screen-md";
+const sectionContentClass =
+  " flex flex-col items-center justify-center max-w-screen-md mx-auto p-4";
+const blockSectionClass = " min-h-[calc(100vh-6rem)] text-2xl";
+
+const sectionClass = sectionContentClass + blockSectionClass;
 
 export default function Home() {
   return (
@@ -13,26 +17,15 @@ export default function Home() {
         <title>Culi Tif — portfolio</title>
         <link rel="stylesheet" href="/style.css" />
       </StyledHead>
-      <style>
-        {`
-          main section > div {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            min-height: calc(100vh - 6rem);
-          }
-        `}
-      </style>
       <main class="flex-grow">
         <section>
-          <div class={sectionContentClass}>
+          <div class={sectionClass}>
             <h1 class="font-serif text-7xl font-black">
               Hi<span class="text-red-500">,</span>{" "}
               I<span class="text-red-500">'</span>m
               Culi<span class="text-red-500">!</span>
             </h1>
-            <p class="text-2xl">
+            <p>
               full-stack software engineer
             </p>
             <p class="my-10">
@@ -40,9 +33,9 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <AboutSection contentClass={sectionContentClass} />
-        <ProjectsSection contentClass={sectionContentClass} />
-        <ToolsSection contentClass={sectionContentClass} />
+        <AboutSection contentClass={sectionClass} />
+        <ProjectsSection contentClass={sectionClass} />
+        <ToolsSection contentClass={sectionClass} />
       </main>
       <footer>
         <div

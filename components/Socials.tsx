@@ -15,9 +15,16 @@ const socials = {
 
 const Socials = () => {
   return (
-    <div class="flex gap-3 text-3xl [&_>_*]:opacity-100 hover:[&_>_a]:opacity-50">
+    <div class="group flex gap-3 text-3xl">
       {Object.entries(socials).map(([key, { unicode, url }]) => (
-        <a key={key} class="transition" title={key} href={url}>
+        <a
+          key={key}
+          /* TODO: find a better way to manage TW specificity than `!important`
+                                                             - culi, '23.02feb */
+          class="transition group-hover:opacity-50 !hover:opacity-100"
+          title={key}
+          href={url}
+        >
           {unicode}
         </a>
       ))}

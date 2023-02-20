@@ -44,13 +44,21 @@ export default function Home() {
         <ProjectsSection contentClass={sectionContentClass} />
         <ToolsSection contentClass={sectionContentClass} />
       </main>
-      <footer class="p-4 mx-auto max-w-screen-md flex-shrink flex gap-1 items-center">
-        <span class="rotate-180 translate-y-[1.5px]">&copy;</span>
-        <span>
-          <a href="https://github.com/tif-calin/work.culi.page_2fresh">
-            steal this
-          </a>
-        </span>
+      <footer>
+        <div
+          class={`${sectionContentClass} flex flex-row flex-shrink flex-wrap gap-1 items-center justify-around`}
+        >
+          <span class="flex items-center gap-1 whitespace-nowrap">
+            <span class="rotate-180 translate-y-[1.5px]">&copy;</span>
+            <a href="https://github.com/tif-calin/work.culi.page_2fresh">
+              steal this
+            </a>
+          </span>
+          <span class="whitespace-nowrap">
+            (re-)built with <a href="https://fresh.deno.dev/">fresh 🍋</a>
+          </span>
+          <Socials />
+        </div>
       </footer>
     </>
   );

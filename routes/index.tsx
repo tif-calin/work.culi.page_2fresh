@@ -3,6 +3,7 @@ import AboutSection from "../components/home/sections/AboutSection.tsx";
 import ProjectsSection from "../components/home/sections/ProjectsSection.tsx";
 import ToolsSection from "../components/home/sections/ToolsSection.tsx";
 import Socials from "../components/Socials.tsx";
+import Contact from "../components/home/Contact.tsx";
 
 const sectionContentClass =
   " flex flex-col items-center justify-center max-w-screen-md mx-auto p-4";
@@ -36,6 +37,7 @@ export default function Home() {
         <AboutSection contentClass={sectionClass} />
         <ProjectsSection contentClass={sectionClass} />
         <ToolsSection contentClass={sectionClass} />
+        <Contact contentClass={sectionContentClass} />
       </main>
       <footer>
         <div

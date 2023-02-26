@@ -7,38 +7,39 @@ const m = 20;
 const Contact = ({ contentClass }: ContactProps) => (
   <>
     <section>
-      <div class={`text-2xl${contentClass}`}>
+      <div class={`${contentClass} pt-16 text-2xl`}>
         <span>Can we work together?</span>
         <p class="cursor-pointer my-10 relative text-4xl">
           <a href="mailto:culitif@tuta.io?subject=Let's talk!">
             <svg
+              aria-hidden="true"
               class="group squiggle absolute bottom-0 left-0 max-h-8"
               viewBox={`0 0 ${10 * m} 18`}
             >
               <style>
                 {`
-              .squiggle path {
-                animation: shift 3s linear infinite;
-                animation-play-state: paused;
-              }
+                  .squiggle path {
+                    animation: shift 3s linear infinite;
+                    animation-play-state: paused;
+                  }
 
-              @prefers-reduced-motion: reduce {
-                animation-duration: 60s;
-              }
+                  @prefers-reduced-motion: reduce {
+                    animation-duration: 60s;
+                  }
 
-              .squiggle:hover path {
-                animation-play-state: running;
-              }
+                  .squiggle:hover path {
+                    animation-play-state: running;
+                  }
 
-              @keyframes shift {
-                from { 
-                  transform: translateX(-50%);
-                }
-                to { 
-                  transform:translateX(0);
-                }
-              }
-            `}
+                  @keyframes shift {
+                    from { 
+                      transform: translateX(-50%);
+                    }
+                    to { 
+                      transform:translateX(0);
+                    }
+                  }
+                `}
               </style>
               {Array.from({ length: m * 2 }).map((_, i) => (
                 <path

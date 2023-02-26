@@ -18,3 +18,6 @@ Start the project:
 ```
 deno task start
 ```
+
+## Credits
+- [fontello.com](https://fontello.com/) - used to make a minimalist icon font

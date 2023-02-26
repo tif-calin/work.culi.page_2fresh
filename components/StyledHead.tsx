@@ -12,6 +12,7 @@ const StyledHead = ({ children }: StyledHeadProps) => (
       {`
       :root {
         --amber-100: #ffecb3;
+        --red-500: #ef4444;
       }
 
       body {

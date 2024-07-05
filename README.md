@@ -15,8 +15,13 @@ I have extensive previous experience with these relevant technologies:
 
 Start the project:
 
-```
+```bash
 deno task start
+```
+
+Update Fresh with:
+```bash
+deno run -Ar https://fresh.deno.dev/update
 ```
 
 ## Credits

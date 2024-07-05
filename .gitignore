@@ -1,1 +1,12 @@
+# Mac OS generated files
 .DS_STORE
+
+# dotenv environment variable files
+.env
+.env.local
+
+# Dependency directory
+node_modules
+
+# Fresh build directory
+_fresh/

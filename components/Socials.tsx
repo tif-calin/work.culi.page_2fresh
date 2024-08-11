@@ -21,7 +21,7 @@ const Socials = () => {
           key={key}
           /* TODO: find a better way to manage TW specificity than `!important`
                                                              - culi, '23.02feb */
-          class="transition group-hover:opacity-50 !hover:opacity-100"
+          class="transition group-hover:opacity-50 hover:!opacity-100"
           title={key}
           href={url}
         >

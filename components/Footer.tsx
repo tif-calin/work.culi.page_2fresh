@@ -17,7 +17,8 @@ const Footer = () => {
         <Socials />
         <span class="text-right w-[33%] whitespace-nowrap flex-grow">
           <span>
-            (re-)built with <a href="https://fresh.deno.dev/">fresh 🍋</a>
+            <a href="https://cra.work.culi.page/">(re-)</a>built with{" "}
+            <a href="https://fresh.deno.dev/">fresh 🍋</a>
           </span>
         </span>
       </div>

@@ -1,6 +1,6 @@
 import StyledHead from "../components/StyledHead.tsx";
 import AboutSection from "../components/home/sections/AboutSection.tsx";
-import ProjectsSection from "../components/home/sections/ProjectsSection.tsx";
+import ProjectsSection from "../components/home/sections/ProjectsSection/index.tsx";
 import ToolsSection from "../components/home/sections/ToolsSection.tsx";
 import Socials from "../components/Socials.tsx";
 import Contact from "../components/home/Contact.tsx";

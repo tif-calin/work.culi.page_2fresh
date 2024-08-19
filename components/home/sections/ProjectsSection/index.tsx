@@ -51,8 +51,8 @@ const PROJECTS: ComponentProps<typeof Project>[] = [
 const ProjectsSection = ({ contentClass }: ProjectsSectionProps) => {
   return (
     <section>
-      <div class={contentClass}>
-        <h3 class="text-5xl mb-4">project project project</h3>
+      <div class={contentClass + " m-16"}>
+        <h3 class="text-5xl mb-4">Past Projects</h3>
 
         {PROJECTS.map((project) => <Project {...project} />)}
       </div>

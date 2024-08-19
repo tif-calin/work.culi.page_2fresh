@@ -24,7 +24,7 @@ const AboutSection = ({ contentClass }: AboutSectionProps) => {
         />
       </svg>
       <div class={"pt-0" + contentClass}>
-        <h3 class="text-5xl mb-4">about about about</h3>
+        <h3 class="text-5xl mb-4">About Me</h3>
         <div class="flex flex-col gap-4">
           <p>
             I have a solid grasp of industry-standard tools and enjoy

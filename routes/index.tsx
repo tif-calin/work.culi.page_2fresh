@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <StyledHead>
-        <title>Culi Tif — portfolio</title>
+        <title>Culi is a software engineer</title>
         <link rel="stylesheet" href="/style.css" />
       </StyledHead>
       <main class="flex-grow flex-nowrap">
@@ -26,17 +26,17 @@ export default function Home() {
               blockSectionClass}
           >
             <div class="z-10">
-            <h1 class="font-serif text-7xl font-black">
-              Hi<span class="text-red-500">,</span>{" "}
-              I<span class="text-red-500">'</span>m
-              Culi<span class="text-red-500">!</span>
-            </h1>
-            <p>
-              full-stack software engineer
-            </p>
-            <p class="my-10">
-              <Socials />
-            </p>
+              <h1 class="font-serif text-7xl font-black">
+                Hi<span class="text-red-500">,</span>{" "}
+                I<span class="text-red-500">'</span>m
+                Culi<span class="text-red-500">!</span>
+              </h1>
+              <p>
+                Software engineer
+              </p>
+              <p class="my-10">
+                <Socials />
+              </p>
             </div>
             <img
               src="/dentata.svg"

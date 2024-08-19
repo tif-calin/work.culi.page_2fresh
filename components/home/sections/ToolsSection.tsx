@@ -6,7 +6,7 @@ const ToolsSection = ({ contentClass }: ToolsSectionProps) => {
   return (
     <section class="bg-red-500 border-y-2 border-gray-900 text-white">
       <div class={contentClass}>
-        <h3 class="text-5xl mb-4">tool tool tool</h3>
+        <h3 class="text-5xl mb-4">Tools</h3>
         <div>
           Like most of my fellow primates, I can use tools! Some of my
           specialties include TypeScript, React, and D3 for building front-ends

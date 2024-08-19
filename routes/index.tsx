@@ -19,9 +19,13 @@ export default function Home() {
         <title>Culi Tif — portfolio</title>
         <link rel="stylesheet" href="/style.css" />
       </StyledHead>
-      <main class="flex-grow">
+      <main class="flex-grow flex-nowrap">
         <section>
-          <div class={"h-[calc(100vh-1rem)]" + sectionClass}>
+          <div
+            class={"flex h-[calc(100vh-1rem)] max-w-screen-md mx-auto p-4 items-center justify-center" +
+              blockSectionClass}
+          >
+            <div class="z-10">
             <h1 class="font-serif text-7xl font-black">
               Hi<span class="text-red-500">,</span>{" "}
               I<span class="text-red-500">'</span>m
@@ -33,6 +37,12 @@ export default function Home() {
             <p class="my-10">
               <Socials />
             </p>
+            </div>
+            <img
+              src="/dentata.svg"
+              alt="Dentata decorative graphic"
+              class="animate-hero-graphic max-w-[65%] min-w-[35rem]"
+            />
           </div>
         </section>
         <AboutSection contentClass={sectionClass} />

@@ -31,11 +31,12 @@ export default function Home() {
                 I<span class="text-red-500">'</span>m
                 Culi<span class="text-red-500">!</span>
               </h1>
-              <p>
+              <p class="text-nowrap">
                 Software engineer
               </p>
               <p class="my-10">
                 <Socials />
+                <a class="text-base" href="https://culi.bearblog.dev/blog/">I've also got a tech blog!</a>
               </p>
             </div>
             <img

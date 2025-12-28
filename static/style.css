@@ -1,6 +1,8 @@
 
 :root {
-  font-family: "DenoWorkCuliPageIconFont";
+  --font-sans: Optima, Candara, 'Noto Sans', source-sans-pro, sans-serif;
+
+  font-family: "DenoWorkCuliPageIconFont", var(--font-sans);
 }
 
 @charset "UTF-8";
@@ -14,7 +16,7 @@
 /*
   https://fontello.com/
 
-  U+1f419   github-squared (Font Awesome) 
+  U+1f419   github-squared (Font Awesome)
   U+1f4bb   linked-in-squared (Font Awesome)
   U+1f4e7   mail-squared (Font Awesome)
 */

@@ -11,10 +11,10 @@ const Project = ({ title, description, githubRepo, webUrl }: ProjectProps) => {
   return (
     <div class="mb-4">
       <div class="flex flex-row justify-between">
-        <h4 id={anchorId} class="text-3xl">{title}</h4>
+        <h4 id={anchorId} class="text-3xl font-medium">{title}</h4>
         <span class="inline-flex gap-2">
           <a class="opacity-50 hover:opacity-100" href={`https://${webUrl}/`}>
-            url
+            web
           </a>
           <a
             class="opacity-50 hover:opacity-100"

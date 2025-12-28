@@ -1,0 +1,14 @@
+
+- [x] update to fresh 1.6
+- [x] squiggly
+- [x] fix footer wrapping and centering
+- [x] grainy background color
+- [x] wavy top for about section
+- [ ] slanted top for tools section
+- [x] borders for sections
+- [ ] styling for links
+- [ ] favicon uses different brand colors
+- [ ] update aria attributes and presentation roles
+- [ ] add link to legacy cra.work.culi.page in footer
+- [ ] add accessibility settings: reduced motion, font size
+- [ ] add pictures to projects

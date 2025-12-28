@@ -54,7 +54,7 @@ const ProjectsSection = ({ contentClass }: ProjectsSectionProps) => {
       <div class={contentClass + " m-16"}>
         <h3 class="text-5xl mb-4">Past Projects</h3>
 
-        {PROJECTS.map((project) => <Project {...project} />)}
+        {PROJECTS.map(project => <Project key={project.title} {...project} />)}
       </div>
     </section>
   );

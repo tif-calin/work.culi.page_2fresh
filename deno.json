@@ -18,5 +18,6 @@
     "tailwindcss/plugin": "npm:/tailwindcss@3.4.1/plugin.js"
   },
   "lint": { "rules": { "tags": ["fresh", "recommended"] } },
+  "lock": false,
   "exclude": ["**/_fresh/*"]
 }
